@@ -262,16 +262,16 @@
 <!-- Floating Buttons Container -->
 <div class="floating-btn-container">
     <!-- Button Messenger (trên cùng) -->
-    <a href="https://www.facebook.com/profile.php?id=61575748661377" target="_blank" class="floating-btn floating-messenger">
-        <i class="fa-brands fa-facebook-messenger"></i>
-        <span class="floating-tooltip">Chat với chúng tôi qua Messenger</span>
+    <a href="https://www.facebook.com/trong.phuc.53412" target="_blank" class="floating-btn floating-messenger">
+        <i class="fa-brands fa-facebook"></i>
+        <span class="floating-tooltip">Chat với chúng tôi qua Facebook</span>
         <span class="message-badge">NEW</span>
     </a>
     
     <!-- Button Điện Thoại (dưới) -->
-    <a href="tel:02439998877" class="floating-btn floating-phone">
+    <a href="tel:0343635667" class="floating-btn floating-phone">
         <i class="fa-solid fa-phone-volume"></i>
-        <span class="floating-tooltip">Gọi ngay: 0243.999.8877</span>
+        <span class="floating-tooltip">Gọi ngay: 0343 635 667</span>
         <span class="hotline-badge">HOT</span>
     </a>
 </div>

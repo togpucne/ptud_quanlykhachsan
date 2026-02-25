@@ -62,7 +62,7 @@
                     <div class="col-md-6 mb-3">
                         <h6 class="mb-3 text-warning">Theo dõi chúng tôi</h6>
                         <div class="d-flex flex-wrap gap-3">
-                            <a href="#" class="text-white fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/trong.phuc.53412" class="text-white fs-5"><i class="fab fa-facebook"></i></a>
                             <a href="#" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
                             <a href="#" class="text-white fs-5"><i class="fab fa-tiktok"></i></a>
                             <a href="#" class="text-white fs-5"><i class="fab fa-youtube"></i></a>

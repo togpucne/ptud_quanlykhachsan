@@ -10,64 +10,12 @@ $teamMembers = [
         'student_id' => '22655111',
         'role' => 'Trưởng Nhóm',
         'role_desc' => 'Fullstack Developer & Project Manager',
-        'email' => 'phuc.nt@toasangresort.com',
-        'phone' => '0912 345 678',
+        'email' => 'joydaide2004@gmail.com',
+        'phone' => '0343 635 667',
         'avatar' => 'avatar1.jpg',
-        'facebook' => 'https://facebook.com/trongphuc.nguyen',
-        'github' => 'https://github.com/trongphuc22655111',
-        'linkedin' => 'https://linkedin.com/in/trongphuc-nguyen'
-    ],
-    [
-        'id' => '002',
-        'name' => 'Bùi Thu Thảo',
-        'student_id' => '22661151',
-        'role' => 'Thư Ký',
-        'role_desc' => 'System Analyst & Documentation',
-        'email' => 'thao.bt@toasangresort.com',
-        'phone' => '0913 456 789',
-        'avatar' => 'avatar2.jpg',
-        'facebook' => 'https://facebook.com/thuthao.bui',
-        'github' => 'https://github.com/thuthao22661151',
-        'linkedin' => 'https://linkedin.com/in/thuthao-bui'
-    ],
-    [
-        'id' => '003',
-        'name' => 'Lê Trọng Phúc',
-        'student_id' => '22679331',
-        'role' => 'Timekeeper',
-        'role_desc' => 'Database Administrator & Tester',
-        'email' => 'phuc.lt@toasangresort.com',
-        'phone' => '0914 567 890',
-        'avatar' => 'avatar3.jpg',
-        'facebook' => 'https://facebook.com/trongphuc.le',
-        'github' => 'https://github.com/trongphuc22679331',
-        'linkedin' => 'https://linkedin.com/in/trongphuc-le'
-    ],
-    [
-        'id' => '004',
-        'name' => 'Phạm Công Thành',
-        'student_id' => '22725811',
-        'role' => 'Người lưu hồ sơ',
-        'role_desc' => 'Backend Developer & Data Manager',
-        'email' => 'thanh.pc@toasangresort.com',
-        'phone' => '0915 678 901',
-        'avatar' => 'avatar4.jpg',
-        'facebook' => 'https://facebook.com/congthanh.pham',
-        'github' => 'https://github.com/congthanh22725811',
-        'linkedin' => 'https://linkedin.com/in/congthanh-pham'
-    ],
-    [
-        'id' => '005',
-        'name' => 'Trương Hoàng Lâm',
-        'student_id' => '20048901',
-        'role' => 'Thành viên',
-        'role_desc' => 'Frontend Developer & UI/UX Designer',
-        'email' => 'lam.th@toasangresort.com',
-        'phone' => '0916 789 012',
-        'avatar' => 'avatar5.jpg',
-        'facebook' => 'https://facebook.com/hoanglam.truong',
-        'github' => 'https://github.com/hoanglam20048901',
-        'linkedin' => 'https://linkedin.com/in/hoanglam-truong'
+        'facebook' => 'https://www.facebook.com/trong.phuc.53412',
+        'github' => 'https://github.com/togpucne/ptud_quanlykhachsan',
+        'linkedin' => 'https://www.linkedin.com/in/nguyen-trong-phuc-0b0975252/'
     ]
 ];
 ?>
@@ -611,9 +559,7 @@ if (is_dir($teamDir)) {
     <div class="contact-hero">
         <div class="text-center">
             <h1>Đội Ngũ Phát Triển</h1>
-            <p class="lead mt-3" style="font-size: 1.2rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">
-                Nhóm 5 thành viên - Dự án Tỏa Sáng Resort
-            </p>
+           
         </div>
     </div>
 
@@ -622,7 +568,7 @@ if (is_dir($teamDir)) {
         <div class="container">
             <div class="section-title">
                 <h2>Thành Viên Nhóm</h2>
-                <p>Đội ngũ phát triển website Tỏa Sáng Resort với 5 thành viên tài năng và nhiệt huyết</p>
+                <p>Đội ngũ phát triển website Tỏa Sáng Resort</p>
             </div>
             
             <div class="row">

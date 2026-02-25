@@ -126,7 +126,7 @@ function getCustomerInfo($userId)
             <!-- LOGO SỬA VỀ TRANG CHỦ QUA INDEX.PHP -->
             <a class="navbar-brand" href="<?php echo $base_url; ?>/client/index.php">
                 <img src="<?php echo $base_url; ?>/client/assets/images/logo/logo_toasang-removebg.png" width="60" height="60" alt="Logo">
-                Tỏa Sáng RESORT
+                Tỏa Sáng Resort
             </a>
 
             <!-- Mobile toggle button -->
@@ -152,21 +152,11 @@ function getCustomerInfo($userId)
 
 
                     <!-- Dropdown Hỗ trợ - SỬA ĐƯỜNG DẪN -->
-                    <div class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="<?php echo $base_url; ?>/client/view/support/index.php" role="button" data-bs-toggle="dropdown">
+                    <div class="nav-item ">
+                        <a class="nav-link " href="<?php echo $base_url; ?>/client/view/support/index.php">
                             <i class="fas fa-headset me-1"></i>Hỗ trợ
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo $base_url; ?>/client/view/support/index.php">
-                                    <i class="fas fa-question-circle me-2"></i>Trợ giúp
-                                </a></li>
-                            <li><a class="dropdown-item" href="<?php echo $base_url; ?>/client/view/support/index.php#contact">
-                                    <i class="fas fa-phone me-2"></i>Liên hệ chúng tôi
-                                </a></li>
-                            <li><a class="dropdown-item" href="<?php echo $base_url; ?>/client/view/support/index.php">
-                                    <i class="fas fa-envelope me-2"></i>Hộp thư của tôi
-                                </a></li>
-                        </ul>
+                       
                     </div>
 
 

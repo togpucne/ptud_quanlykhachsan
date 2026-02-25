@@ -1,61 +1,86 @@
+# Toa Sang Resort Management System
 
-# Cấu trúc dự án ABC Resort
+A web-based Resort Management Information System developed using PHP (MVC architecture), MySQL, Bootstrap, and JavaScript.
 
+This project simulates real-world resort operations including room booking, role-based administration, promotion management, and mock online payment integration.
 
+## System Architecture
+
+The system follows the **Model–View–Controller (MVC)** pattern to ensure separation of concerns and maintainability.
+
+```
 ABC-RESORT/
+│
+├── client/
+│   ├── model/
+│   ├── view/
+│   ├── controller/
+│   └── index.php
+│
+├── server/
+│   ├── model/
+│   ├── view/
+│   ├── controller/
+│
+└── Database: MySQL
+```
 
-├── vscode/
+- **Client** → Customer-facing booking system
+- **Server** → Administrative management system
+- **Database** → Relational data storage using MySQL
 
-│   └── settings.json
+## Key Features
 
-├── client/                 
+- Room search and booking workflow
+- Dynamic guest information handling
+- Promotion validation (amount-based & night-based)
+- Cash & Mock MoMo payment integration
+- Role-Based Access Control (6 actors)
+- Booking history tracking
+- Revenue and operational management
 
-├── server/                
+## Local Access (XAMPP)
 
-├── assets/               
+After starting Apache and MySQL:
 
-├── controller/
+**Customer Interface:**
 
-│   ├── DichVuController.php
+```
+http://localhost/ABC-Resort/client/index.php
+```
 
-│   ├── khuyenmaiController.php
+**Admin Login:**
 
-│   ├── login.controller.php
+```
+http://localhost/ABC-Resort/server/view/login/login.php
+```
 
-│   └── phongController.php
+## Technologies Used
 
-├── model/
+**Backend**
 
-│   ├── connectDB.php
+- PHP (Core MVC structure)
+- MySQL
+- XAMPP
 
-│   ├── DichVuModel.php
+**Frontend**
 
-│   ├── KhuyenMaiModel.php
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- Font Awesome
 
-│   ├── login.model.php
+## Installation
 
-│   └── PhongModel.php
+1. Clone the repository
+2. Move project to `htdocs/` (XAMPP)
+3. Import the database via phpMyAdmin
+4. Start Apache & MySQL
+5. Access via the URLs above
 
-├── view/
+## Author
 
-│   ├── layouts/
-
-│   │   ├── footer.php
-
-│   │   └── header.php
-
-│   ├── dashboard.php
-
-│   ├── khuyenmai.php
-
-│   ├── login.php
-
-│   ├── quanlydichvu.php
-
-│   ├── quanlykhachhang.php
-
-│   ├── quanlynhanvien.php
-
-│   └── quanlyphong.php
-
-└── README.md
+Nguyen Trong Phuc
+Information Systems Student
+Industrial University of Ho Chi Minh City

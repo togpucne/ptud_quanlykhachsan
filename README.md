@@ -2,6 +2,8 @@
 
 A web-based Resort Management Information System developed using PHP (MVC architecture), MySQL, Bootstrap, and JavaScript.
 
+
+
 This project simulates real-world resort operations including room booking, role-based administration, promotion management, and mock online payment integration.
 
 ## System Architecture
